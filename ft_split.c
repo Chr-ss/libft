@@ -76,9 +76,7 @@ char	**ft_split(char const *s, char c)
 {
 	char	**array;
 	int		str_count;
-	int		curr_str;
 
-	curr_str = 0;
 	if (!ft_strlen(s))
 		str_count = 0;
 	else
