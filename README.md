@@ -1,2 +1,0 @@
-# libft
-Codam - libft
