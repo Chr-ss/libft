@@ -66,6 +66,7 @@ typedef struct s_list
     void *content;
     struct s_list *next;
 } t_list;
+```
 
 ### List Functions
 - `ft_lstnew`: Allocates and returns a new node.
