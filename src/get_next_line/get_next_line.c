@@ -1,16 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   get_next_line_bonus.c                              :+:    :+:            */
+/*   get_next_line.c                                    :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: crasche <crasche@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/10/14 22:16:05 by crasche       #+#    #+#                 */
-/*   Updated: 2023/11/29 18:30:26 by crasche       ########   odam.nl         */
+/*   Updated: 2024/05/26 14:45:07 by crasche       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include "../../include/get_next_line_bonus.h"
 #include "../../include/libft.h"
 
 //	clean_for_next_call - cleaning lst for the next call and freeing

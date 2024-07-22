@@ -6,12 +6,11 @@
 /*   By: veno <veno@student.codam.nl>                 +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/11/03 17:39:55 by veno          #+#    #+#                 */
-/*   Updated: 2023/11/29 18:30:10 by crasche       ########   odam.nl         */
+/*   Updated: 2024/05/26 14:44:35 by crasche       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../include/libft.h"
-// #include "../../include/ft_printf.h"
 
 void	printf_get_hex(unsigned long n, char *number)
 {

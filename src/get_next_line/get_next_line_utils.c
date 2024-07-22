@@ -6,11 +6,10 @@
 /*   By: crasche <crasche@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/10/14 22:16:29 by crasche       #+#    #+#                 */
-/*   Updated: 2024/02/01 18:58:12 by crasche       ########   odam.nl         */
+/*   Updated: 2024/06/04 18:02:16 by crasche       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include "../../include/get_next_line_bonus.h"
 #include "../../include/libft.h"
 
 //	gnl_free_master - combined free function, used for most cases when
@@ -87,7 +86,7 @@ void	*gnl_ft_calloc(size_t nmemb, size_t size)
 	}
 	else if (!(((nmemb * size) / size) == nmemb))
 		return (NULL);
-	ptr = malloc(nmemb * size);
+	ptr = ft_calloc(nmemb, size);
 	if (!ptr)
 		return (NULL);
 	n = nmemb * size;
