@@ -18,7 +18,7 @@ char	*ft_dynstralloc(char *original_str, int *capacity)
 
 	*capacity *= 2;
 	new_str = ft_calloc(*capacity + 1, sizeof(char));
-	if(!new_str)
+	if (!new_str)
 		return (NULL);
 	if (original_str)
 	{
