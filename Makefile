@@ -6,7 +6,7 @@ OBJDIR	=	obj
 OBJ		=	$(SRC:$(SRCDIR)/%.c=$(OBJDIR)/%.o)
 RM		=	rm	-rf
 AR		=	ar	-rcs
-DIR_DUP	= mkdir -p $(@D)
+DIR_DUP	=	mkdir -p	$(@D)
 
 .PHONY:	all	clean	fclean	re
 .SILENT:
