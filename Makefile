@@ -1,7 +1,62 @@
 NAME	=	libft.a
 CFLAGS	=	-Wall -Werror -Wextra -Wunused -Wuninitialized -Wunreachable-code -MMD
 SRCDIR	=	src
-SRC		=	$(shell find $(SRCDIR) -iname "*.c")
+SRC		=	src/ft_printf/chars.c	\
+			src/ft_printf/printf.c	\
+			src/ft_printf/numbers.c	\
+			src/ft_printf/hex.c	\
+			src/get_next_line/get_next_line_utils.c	\
+			src/get_next_line/get_next_line.c	\
+			src/libft/convert/ft_tolower.c	\
+			src/libft/convert/ft_toupper.c	\
+			src/libft/convert/ft_split.c	\
+			src/libft/convert/ft_itoa.c	\
+			src/libft/convert/ft_atoi.c	\
+			src/libft/istype/ft_isalnum.c	\
+			src/libft/istype/ft_isupper.c	\
+			src/libft/istype/ft_isdigit.c	\
+			src/libft/istype/ft_islower.c	\
+			src/libft/istype/ft_isalpha.c	\
+			src/libft/istype/ft_isspace.c	\
+			src/libft/istype/ft_isprint.c	\
+			src/libft/istype/ft_isascii.c	\
+			src/libft/str/ft_strrchr.c	\
+			src/libft/str/ft_strncmp.c	\
+			src/libft/str/ft_strchr.c	\
+			src/libft/str/ft_strcmp.c	\
+			src/libft/str/ft_strndup.c	\
+			src/libft/str/ft_strdup.c	\
+			src/libft/str/ft_substr.c	\
+			src/libft/str/ft_strlcat.c	\
+			src/libft/str/ft_strmapi.c	\
+			src/libft/str/ft_striteri.c	\
+			src/libft/str/ft_strlen.c	\
+			src/libft/str/ft_strnstr.c	\
+			src/libft/str/ft_strtrim.c	\
+			src/libft/str/ft_strjoin.c	\
+			src/libft/str/ft_strlcpy.c	\
+			src/libft/malloc/ft_dynstralloc.c	\
+			src/libft/malloc/ft_bzero.c	\
+			src/libft/malloc/ft_calloc.c	\
+			src/libft/malloc/ft_free_strarr.c	\
+			src/libft/mem/ft_memcmp.c	\
+			src/libft/mem/ft_memmove.c	\
+			src/libft/mem/ft_memset.c	\
+			src/libft/mem/ft_memchr.c	\
+			src/libft/mem/ft_memcpy.c	\
+			src/libft/list/ft_lstadd_front.c	\
+			src/libft/list/ft_lstsize.c	\
+			src/libft/list/ft_lstdelone.c	\
+			src/libft/list/ft_lstclear.c	\
+			src/libft/list/ft_lstiter.c	\
+			src/libft/list/ft_lstlast.c	\
+			src/libft/list/ft_lstmap.c	\
+			src/libft/list/ft_lstnew.c	\
+			src/libft/list/ft_lstadd_back.c	\
+			src/libft/put/ft_putnbr_fd.c	\
+			src/libft/put/ft_putendl_fd.c	\
+			src/libft/put/ft_putstr_fd.c	\
+			src/libft/put/ft_putchar_fd.c
 OBJDIR	=	obj
 OBJ		=	$(SRC:$(SRCDIR)/%.c=$(OBJDIR)/%.o)
 RM		=	rm	-rf
