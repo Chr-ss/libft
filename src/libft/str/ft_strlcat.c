@@ -6,7 +6,7 @@
 /*   By: crasche <crasche@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/10/05 17:22:03 by crasche       #+#    #+#                 */
-/*   Updated: 2024/05/26 14:43:06 by crasche       ########   odam.nl         */
+/*   Updated: 2024/10/14 18:06:29 by crasche       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,8 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	dst_len = 0;
 	src_len = 0;
 	index = 0;
+	if (!dst || !src)
+		return (0);
 	while (dst[dst_len] != '\0' && dst_len < size)
 		dst_len++;
 	while (src[src_len] != '\0')
